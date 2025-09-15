@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "myBlankApp",
+    "slug": "myBlankApp",
+    "version": "1.0.0",
+    "entryPoint": "./App.js",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.elijiaah.myBlankApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e01bbd06-3d40-4f63-9a14-3e4a63d78b50"
+      }
+    }
+  }
+}
